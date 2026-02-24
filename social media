@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة وسائل التواصل الاجتماعي | تمهيد - خبراء التسويق الرقمي في الخليج</title>
+    <meta name="description" content="خدمات إدارة وسائل التواصل الاجتماعي في الكويت والسعودية والخليج: إنشاء محتوى، إعلانات مستهدفة، تحليلات دورية. احصل على استشارة مجانية من خبراء تمهيد.">
+    <meta name="keywords" content="إدارة وسائل التواصل الاجتماعي, تسويق رقمي الكويت, إدارة سناب شات, إدارة انستغرام, حملات اعلانية, تحسين محركات البحث, تمهيد, شركة تسويق الكويت">
+    <meta name="author" content="تمهيد">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="إدارة وسائل التواصل الاجتماعي | تمهيد">
+    <meta property="og:description" content="نحوّل متابعيك إلى عملاء. إدارة احترافية لحسابات التواصل مع تحليلات دورية وتقارير أداء">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tamhed-co.com/social-media-management">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        /* ========== VARIABLES & RESET ========== */
+        :root {
+            --primary-green: #a4e519;
+            --primary-blue: #1c78f1;
+            --pure-white: #ffffff;
+            --dark-900: #1a1a1a;
+            --dark-800: #2d2d2d;
+            --dark-700: #404040;
+            --gray-100: #f8f9fa;
+            --gray-200: #e9ecef;
+            --gray-300: #dee2e6;
+            --gray-400: #ced4da;
+            --gray-500: #adb5bd;
+            --gray-600: #6c757d;
+            
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+            --shadow-xl: 0 20px 32px -8px rgba(0,0,0,0.2);
+            
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 20px;
+            --radius-xl: 32px;
+            
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--pure-white);
+            color: var(--dark-900);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ========== UTILITY CLASSES ========== */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-sm {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            right: 0;
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-green), var(--primary-blue));
+            border-radius: 4px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* ========== BREADCRUMB ========== */
+        .breadcrumb {
+            padding: 20px 0;
+            background: var(--gray-100);
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .breadcrumb-list {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            list-style: none;
+        }
+
+        .breadcrumb-item a {
+            color: var(--gray-600);
+            text-decoration: none;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+
+        .breadcrumb-item a:hover {
+            color: var(--primary-blue);
+        }
+
+        .breadcrumb-item.active {
+            color: var(--dark-900);
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .breadcrumb-separator {
+            color: var(--gray-400);
+            font-size: 12px;
+        }
+
+        /* ========== HERO SECTION ========== */
+        .hero {
+            background: linear-gradient(135deg, var(--dark-900), #000);
+            color: var(--pure-white);
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-pattern {
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(circle at 30% 40%, rgba(164,229,25,0.1) 0%, transparent 30%),
+                              radial-gradient(circle at 70% 60%, rgba(28,120,241,0.1) 0%, transparent 30%);
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero h1 span {
+            color: var(--primary-green);
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--gray-400);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* ========== CONTACT FORM UNDER HERO ========== */
+        .form-under-hero {
+            margin-top: 40px;
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-radius: var(--radius-xl);
+            padding: 40px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 15px 18px;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: var(--radius-md);
+            color: var(--pure-white);
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+
+        .form-input::placeholder {
+            color: rgba(255,255,255,0.6);
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--primary-green);
+            background: rgba(255,255,255,0.15);
+        }
+
+        .form-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            border: none;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            font-size: 16px;
+            color: var(--dark-900);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .form-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* ========== FEATURES SECTION ========== */
+        .features-section {
+            background: var(--gray-100);
+        }
+
+        .features-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            margin-top: 40px;
+        }
+
+        .feature-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .feature-row.reverse {
+            direction: ltr;
+        }
+
+        .feature-row.reverse .feature-content {
+            direction: rtl;
+        }
+
+        .feature-content {
+            padding: 30px;
+        }
+
+        .feature-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            color: var(--dark-900);
+            font-weight: 600;
+            font-size: 14px;
+            border-radius: var(--radius-full);
+            margin-bottom: 20px;
+        }
+
+        .feature-content h3 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .feature-content p {
+            color: var(--gray-600);
+            margin-bottom: 25px;
+            font-size: 16px;
+        }
+
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+
+        .feature-list i {
+            color: var(--primary-green);
+            font-size: 18px;
+        }
+
+        .feature-image {
+            position: relative;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+        }
+
+        .image-placeholder {
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            aspect-ratio: 4/3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-placeholder i {
+            font-size: 80px;
+            color: rgba(255,255,255,0.3);
+        }
+
+        /* ========== WHY US SECTION ========== */
+        .why-us-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .why-card {
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            padding: 40px 30px;
+            border-radius: var(--radius-lg);
+            color: var(--dark-900);
+            transition: var(--transition);
+        }
+
+        .why-card:hover {
+            transform: scale(1.03);
+        }
+
+        .why-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        .why-icon i {
+            font-size: 28px;
+            color: var(--dark-900);
+        }
+
+        .why-card h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .why-card p {
+            opacity: 0.9;
+            line-height: 1.7;
+        }
+
+        /* ========== STATS SECTION ========== */
+        .stats {
+            background: linear-gradient(135deg, var(--dark-900), #000);
+            color: var(--pure-white);
+            padding: 60px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 42px;
+            font-weight: 800;
+            color: var(--primary-green);
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            color: var(--gray-400);
+            font-size: 16px;
+        }
+
+        /* ========== PARTNERS SECTION ========== */
+        .partners {
+            background: var(--pure-white);
+            padding: 60px 0;
+        }
+
+        .partners-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 40px;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .partner-item {
+            text-align: center;
+            filter: grayscale(100%);
+            opacity: 0.6;
+            transition: var(--transition);
+        }
+
+        .partner-item:hover {
+            filter: grayscale(0);
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        .partner-logo {
+            width: 120px;
+            height: 120px;
+            background: var(--gray-100);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            border: 2px solid var(--gray-200);
+        }
+
+        .partner-logo i {
+            font-size: 50px;
+            color: var(--primary-blue);
+        }
+
+        .partner-item span {
+            font-weight: 600;
+            color: var(--gray-600);
+        }
+
+        /* ========== CONTACT SECTION ========== */
+        .contact-section {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 80px 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 50px;
+            margin-top: 40px;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            padding: 40px;
+            border-radius: var(--radius-xl);
+            color: var(--dark-900);
+        }
+
+        .contact-info h3 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 40px;
+            opacity: 0.9;
+            line-height: 1.7;
+        }
+
+        .contact-details {
+            list-style: none;
+        }
+
+        .contact-details li {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .contact-details i {
+            width: 50px;
+            height: 50px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .contact-form {
+            background: var(--pure-white);
+            padding: 40px;
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 15px 18px;
+            border: 2px solid var(--gray-200);
+            border-radius: var(--radius-md);
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary-green);
+            box-shadow: 0 0 0 4px rgba(164,229,25,0.1);
+        }
+
+        textarea.form-control {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            border: none;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--dark-900);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* ========== FOOTER ========== */
+        .footer {
+            background: var(--dark-900);
+            color: var(--gray-400);
+            padding: 60px 0 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer-logo {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--pure-white);
+            margin-bottom: 20px;
+        }
+
+        .footer-logo span {
+            color: var(--primary-green);
+        }
+
+        .footer-about p {
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-link {
+            width: 45px;
+            height: 45px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--pure-white);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .social-link:hover {
+            background: var(--primary-green);
+            color: var(--dark-900);
+            transform: translateY(-3px);
+        }
+
+        .footer h4 {
+            color: var(--pure-white);
+            font-size: 20px;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 15px;
+        }
+
+        .footer-links a {
+            color: var(--gray-400);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-green);
+            padding-right: 5px;
+        }
+
+        .footer-contact li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+
+        .footer-contact i {
+            width: 35px;
+            color: var(--primary-green);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 1024px) {
+            .feature-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .feature-row.reverse {
+                direction: rtl;
+            }
+            
+            .why-us-grid,
+            .stats-grid,
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .partners-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .why-us-grid,
+            .stats-grid,
+            .partners-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb-list">
+                <li class="breadcrumb-item"><a href="https://tamhed-co.com">الرئيسية</a></li>
+                <li class="breadcrumb-separator"><i class="fas fa-chevron-left"></i></li>
+                <li class="breadcrumb-item"><a href="https://tamhed-co.com/services">خدماتنا</a></li>
+                <li class="breadcrumb-separator"><i class="fas fa-chevron-left"></i></li>
+                <li class="breadcrumb-item active">إدارة وسائل التواصل الاجتماعي</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section with Form Under -->
+    <section class="hero">
+        <div class="hero-pattern"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>إدارة <span>وسائل التواصل الاجتماعي</span> في الكويت والخليج</h1>
+                <p>نحوّل متابعيك إلى عملاء. استراتيجيات مبتكرة لإدارة سناب شات، انستغرام، تيك توك، تويتر وفيسبوك مع تحليلات دورية وتقارير أداء</p>
+            </div>
+
+            <!-- Form Under Hero -->
+            <div class="form-under-hero">
+                <form action="https://tamhed-co.com/contact" method="POST">
+                    <div class="form-grid">
+                        <input type="text" class="form-input" placeholder="الاسم كامل" required>
+                        <input type="tel" class="form-input" placeholder="رقم الجوال (واتساب)" required>
+                        <input type="email" class="form-input" placeholder="البريد الإلكتروني">
+                        <select class="form-input" required>
+                            <option value="" disabled selected>اختر الخدمة</option>
+                            <option value="snapchat">إدارة سناب شات</option>
+                            <option value="instagram">إدارة انستغرام</option>
+                            <option value="tiktok">إدارة تيك توك</option>
+                            <option value="complete">إدارة شاملة</option>
+                        </select>
+                        <select class="form-input">
+                            <option value="" disabled selected>المدينة</option>
+                            <option value="kuwait">الكويت</option>
+                            <option value="riyadh">الرياض</option>
+                            <option value="jeddah">جدة</option>
+                            <option value="dubai">دبي</option>
+                        </select>
+                        <button type="submit" class="form-btn">
+                            <i class="fas fa-paper-plane" style="margin-left: 8px;"></i>
+                            احصل على استشارة مجانية
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternating Features Section (4 boxes with SEO-optimized content) -->
+    <section class="section features-section">
+        <div class="container">
+            <h2 class="section-title">خدمات إدارة وسائل التواصل الاجتماعي</h2>
+            
+            <div class="features-grid">
+                <!-- Feature 1: Content on Right, Image on Left -->
+                <div class="feature-row">
+                    <div class="feature-content">
+                        <span class="feature-badge">١</span>
+                        <h3>إدارة سناب شات وانستغرام</h3>
+                        <p>نقدم خدمات متكاملة لإدارة حسابات سناب شات وانستغرام في الكويت والسعودية. نصمم قصص يومية تفاعلية ومنشورات احترافية تزيد من متابعينك وتحولهم إلى عملاء حقيقيين.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> تصميم ستوريات سناب شات جذابة</li>
+                            <li><i class="fas fa-check-circle"></i> جدولة منشورات انستغرام</li>
+                            <li><i class="fas fa-check-circle"></i> ردود فورية على الاستفسارات</li>
+                            <li><i class="fas fa-check-circle"></i> زيادة التفاعل مع الجمهور الخليجي</li>
+                        </ul>
+                    </div>
+                    <div class="feature-image">
+                        <div class="image-placeholder">
+                            <i class="fab fa-snapchat"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Content on Left, Image on Right (reverse) -->
+                <div class="feature-row reverse">
+                    <div class="feature-content">
+                        <span class="feature-badge">٢</span>
+                        <h3>إدارة تيك توك وتويتر وفيسبوك</h3>
+                        <p>نصنع محتوى فيديو قصير لتيك توك يناسب الذوق الخليجي، وندير حسابات تويتر وفيسبوك بحرفية عالية. نواكب الترندات ونساعدك على الوصول للجمهور المستهدف.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> فيديوهات تيك توك تفاعلية</li>
+                            <li><i class="fas fa-check-circle"></i> تغريدات مؤثرة على تويتر</li>
+                            <li><i class="fas fa-check-circle"></i> حملات فيسبوك مستهدفة</li>
+                            <li><i class="fas fa-check-circle"></i> تفاعل مع المتابعين بلغة عربية فصحى وعامية</li>
+                        </ul>
+                    </div>
+                    <div class="feature-image">
+                        <div class="image-placeholder">
+                            <i class="fab fa-tiktok"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 3: Content on Right, Image on Left -->
+                <div class="feature-row">
+                    <div class="feature-content">
+                        <span class="feature-badge">٣</span>
+                        <h3>إعلانات مدفوعة وتحسين الوصول</h3>
+                        <p>نخطط وندير حملات إعلانية مدفوعة على جميع منصات التواصل لضمان وصولك للعملاء المحتملين في الكويت والخليج. نستخدم استهداف دقيق حسب العمر، الموقع، والاهتمامات.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> إعلانات انستغرام وسناب شات</li>
+                            <li><i class="fas fa-check-circle"></i> حملات تيك توك مدفوعة</li>
+                            <li><i class="fas fa-check-circle"></i> إدارة ميزانية الإعلانات</li>
+                            <li><i class="fas fa-check-circle"></i> تحسين الإعلانات لزيادة المبيعات</li>
+                        </ul>
+                    </div>
+                    <div class="feature-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-ad"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 4: Content on Left, Image on Right (reverse) -->
+                <div class="feature-row reverse">
+                    <div class="feature-content">
+                        <span class="feature-badge">٤</span>
+                        <h3>تحليلات دورية وتقارير أداء</h3>
+                        <p>نقدم لك تقارير أسبوعية وشهرية مفصلة توضح أداء حساباتك: نمو المتابعين، نسبة التفاعل، أفضل أوقات النشر، وتحليل المنافسين في السوق الخليجي.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> تقارير نمو المتابعين</li>
+                            <li><i class="fas fa-check-circle"></i> تحليل التفاعل والوصول</li>
+                            <li><i class="fas fa-check-circle"></i> توصيات لتحسين الأداء</li>
+                            <li><i class="fas fa-check-circle"></i> مقارنة بالمنافسين</li>
+                        </ul>
+                    </div>
+                    <div class="feature-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">لماذا تختار تمهيد لإدارة حساباتك؟</h2>
+            
+            <div class="why-us-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>خبرة في السوق الخليجي</h3>
+                    <p>نفهم احتياجات الجمهور في الكويت والسعودية والإمارات. نصمم محتوى يناسب الذوق الخليجي ونستخدم لهجة قريبة لجمهورك.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>ردود سريعة على مدار الساعة</h3>
+                    <p>نرد على استفسارات عملائك في أي وقت. ندير حساباتك 24/7 ونضمن عدم تفويت أي فرصة تفاعل مع جمهورك.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>نتائج ملموسة</h3>
+                    <p>نركز على تحقيق أهدافك: زيادة المبيعات، نمو المتابعين، أو تحسين الوعي بالعلامة التجارية. نقيس أداءنا بتقارير دقيقة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div>
+                    <div class="stat-number">+150</div>
+                    <div class="stat-label">عميل في الكويت والخليج</div>
+                </div>
+                <div>
+                    <div class="stat-number">+500</div>
+                    <div class="stat-label">حملة إعلانية ناجحة</div>
+                </div>
+                <div>
+                    <div class="stat-number">+2M</div>
+                    <div class="stat-label">وصول للجمهور المستهدف</div>
+                </div>
+                <div>
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">عملاء مستمرون معنا</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <h2 class="section-title text-center" style="display: block; text-align: center;">من شركاء نجاحنا</h2>
+            <p style="text-align: center; color: var(--gray-600); max-width: 600px; margin: 20px auto 0;">
+                نفتخر بثقة علامات تجارية رائدة في الكويت والسعودية والخليج
+            </p>
+
+            <div class="partners-grid">
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <span>متاجر الشرق</span>
+                </div>
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <span>فنادق موديل</span>
+                </div>
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <span>مطاعم الذواق</span>
+                </div>
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <span>أكاديمية الخليج</span>
+                </div>
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <span>مراكز دريم الطبي</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا الآن</h2>
+            
+            <div class="contact-grid">
+                <!-- Contact Info Card -->
+                <div class="contact-info">
+                    <h3>لنبدأ مشوار نجاحك الرقمي</h3>
+                    <p>اترك لنا إدارة حسابات التواصل الاجتماعي وركز على تطوير عملك. فريق تمهيد جاهز لخدمتك في الكويت وجميع دول الخليج.</p>
+                    
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+965 31648078 (واتساب)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@tamhed-co.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>الكويت - حولي، برج تمهيد</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="https://tamhed-co.com/contact" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="الاسم كامل" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="رقم الجوال (واتساب)" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="البريد الإلكتروني">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" required>
+                                <option value="" disabled selected>اختر الخدمة التي تهمك</option>
+                                <option value="snapchat">إدارة سناب شات</option>
+                                <option value="instagram">إدارة انستغرام</option>
+                                <option value="tiktok">إدارة تيك توك</option>
+                                <option value="ads">إعلانات مدفوعة</option>
+                                <option value="complete">حزمة متكاملة</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="اترك لنا رسالة أو استفسار..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane" style="margin-left: 10px;"></i>
+                            أرسل واستشرنا مجاناً
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div
