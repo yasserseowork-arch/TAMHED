@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة الحملات الإعلانية | تمهيد - خبراء الإعلانات المدفوعة في الكويت والخليج</title>
+    <meta name="description" content="خدمات إدارة الحملات الإعلانية في الكويت والسعودية: إعلانات جوجل، فيسبوك، انستغرام، سناب شات، تيك توك. استراتيجيات مدروسة، استهداف دقيق، وتحليل أداء مستمر.">
+    <meta name="keywords" content="إدارة الحملات الإعلانية, إعلانات مدفوعة, إعلانات جوجل, إعلانات فيسبوك, إعلانات انستغرام, إعلانات سناب شات, إعلانات تيك توك, تمهيد, الكويت, السعودية, الخليج">
+    <meta name="author" content="تمهيد">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="إدارة الحملات الإعلانية | تمهيد">
+    <meta property="og:description" content="نوصل علامتك التجارية للجمهور المناسب. إدارة احترافية للحملات الإعلانية على جميع المنصات مع تقارير أداء تفصيلية.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tamhed-co.com/%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%ad%d9%85%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d8%b9%d9%84%d8%a7%d9%86%d9%8a%d8%a9/">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        /* ========== VARIABLES & RESET ========== */
+        :root {
+            --primary-green: #a4e519;
+            --primary-blue: #1c78f1;
+            --pure-white: #ffffff;
+            --dark-900: #1a1a1a;
+            --dark-800: #2d2d2d;
+            --dark-700: #404040;
+            --gray-100: #f8f9fa;
+            --gray-200: #e9ecef;
+            --gray-300: #dee2e6;
+            --gray-400: #ced4da;
+            --gray-500: #adb5bd;
+            --gray-600: #6c757d;
+            
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+            --shadow-xl: 0 20px 32px -8px rgba(0,0,0,0.2);
+            
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 20px;
+            --radius-xl: 32px;
+            
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--pure-white);
+            color: var(--dark-900);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ========== UTILITY CLASSES ========== */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-sm {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            right: 0;
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-green), var(--primary-blue));
+            border-radius: 4px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* ========== BREADCRUMB ========== */
+        .breadcrumb {
+            padding: 20px 0;
+            background: var(--gray-100);
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .breadcrumb-list {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            list-style: none;
+        }
+
+        .breadcrumb-item a {
+            color: var(--gray-600);
+            text-decoration: none;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+
+        .breadcrumb-item a:hover {
+            color: var(--primary-blue);
+        }
+
+        .breadcrumb-item.active {
+            color: var(--dark-900);
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .breadcrumb-separator {
+            color: var(--gray-400);
+            font-size: 12px;
+        }
+
+        /* ========== HERO SECTION ========== */
+        .hero {
+            background: linear-gradient(135deg, var(--dark-900), #000);
+            color: var(--pure-white);
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-pattern {
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(circle at 30% 40%, rgba(164,229,25,0.1) 0%, transparent 30%),
+                              radial-gradient(circle at 70% 60%, rgba(28,120,241,0.1) 0%, transparent 30%);
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero h1 span {
+            color: var(--primary-green);
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--gray-400);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* ========== CONTACT FORM UNDER HERO ========== */
+        .form-under-hero {
+            margin-top: 40px;
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-radius: var(--radius-xl);
+            padding: 40px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 15px 18px;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: var(--radius-md);
+            color: var(--pure-white);
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+
+        .form-input::placeholder {
+            color: rgba(255,255,255,0.6);
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--primary-green);
+            background: rgba(255,255,255,0.15);
+        }
+
+        .form-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            border: none;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            font-size: 16px;
+            color: var(--dark-900);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .form-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* ========== FEATURES SECTION ========== */
+        .features-section {
+            background: var(--gray-100);
+        }
+
+        .features-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            margin-top: 40px;
+        }
+
+        .feature-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .feature-row.reverse {
+            direction: ltr;
+        }
+
+        .feature-row.reverse .feature-content {
+            direction: rtl;
+        }
+
+        .feature-content {
+            padding: 30px;
+        }
+
+        .feature-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            color: var(--dark-900);
+            font-weight: 600;
+            font-size: 14px;
+            border-radius: var(--radius-full);
+            margin-bottom: 20px;
+        }
+
+        .feature-content h3 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .feature-content p {
+            color: var(--gray-600);
+            margin-bottom: 25px;
+            font-size: 16px;
+        }
+
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+
+        .feature-list i {
+            color: var(--primary-green);
+            font-size: 18px;
+        }
+
+        .feature-image {
+            position: relative;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+        }
+
+        .image-placeholder {
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            aspect-ratio: 4/3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-placeholder i {
+            font-size: 80px;
+            color: rgba(255,255,255,0.3);
+        }
+
+        /* ========== PLATFORMS SECTION ========== */
+        .platforms-section {
+            background: var(--pure-white);
+        }
+
+        .platforms-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .platform-card {
+            background: var(--gray-100);
+            padding: 30px 20px;
+            border-radius: var(--radius-lg);
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid var(--gray-200);
+        }
+
+        .platform-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary-blue);
+        }
+
+        .platform-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, rgba(164,229,25,0.1), rgba(28,120,241,0.1));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+
+        .platform-icon i {
+            font-size: 40px;
+            color: var(--primary-blue);
+        }
+
+        .platform-card h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .platform-card p {
+            color: var(--gray-600);
+            font-size: 14px;
+        }
+
+        /* ========== TYPES SECTION ========== */
+        .types-section {
+            background: var(--gray-100);
+        }
+
+        .types-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .type-card {
+            background: var(--pure-white);
+            padding: 30px 20px;
+            border-radius: var(--radius-lg);
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            border: 1px solid var(--gray-200);
+        }
+
+        .type-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary-green);
+        }
+
+        .type-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, rgba(164,229,25,0.1), rgba(28,120,241,0.1));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+
+        .type-icon i {
+            font-size: 32px;
+            color: var(--primary-blue);
+        }
+
+        .type-card h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .type-card p {
+            color: var(--gray-600);
+            font-size: 14px;
+        }
+
+        /* ========== WHY US SECTION ========== */
+        .why-us-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .why-card {
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            padding: 40px 30px;
+            border-radius: var(--radius-lg);
+            color: var(--dark-900);
+            transition: var(--transition);
+        }
+
+        .why-card:hover {
+            transform: scale(1.03);
+        }
+
+        .why-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        .why-icon i {
+            font-size: 28px;
+            color: var(--dark-900);
+        }
+
+        .why-card h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .why-card p {
+            opacity: 0.9;
+            line-height: 1.7;
+        }
+
+        /* ========== FEATURES LIST SECTION ========== */
+        .features-list-section {
+            background: var(--pure-white);
+        }
+
+        .features-list-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 30px;
+            background: var(--gray-100);
+            border-radius: var(--radius-lg);
+            transition: var(--transition);
+            border: 1px solid var(--gray-200);
+        }
+
+        .feature-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary-green);
+        }
+
+        .feature-item-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .feature-item-icon i {
+            font-size: 28px;
+            color: var(--dark-900);
+        }
+
+        .feature-item-content h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .feature-item-content p {
+            color: var(--gray-600);
+        }
+
+        /* ========== STATS SECTION ========== */
+        .stats {
+            background: linear-gradient(135deg, var(--dark-900), #000);
+            color: var(--pure-white);
+            padding: 60px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 42px;
+            font-weight: 800;
+            color: var(--primary-green);
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            color: var(--gray-400);
+            font-size: 16px;
+        }
+
+        /* ========== PARTNERS SECTION ========== */
+        .partners {
+            background: var(--pure-white);
+            padding: 60px 0;
+        }
+
+        .partners-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 40px;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .partner-item {
+            text-align: center;
+            filter: grayscale(100%);
+            opacity: 0.6;
+            transition: var(--transition);
+        }
+
+        .partner-item:hover {
+            filter: grayscale(0);
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        .partner-logo {
+            width: 120px;
+            height: 120px;
+            background: var(--gray-100);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            border: 2px solid var(--gray-200);
+        }
+
+        .partner-logo i {
+            font-size: 50px;
+            color: var(--primary-blue);
+        }
+
+        .partner-item span {
+            font-weight: 600;
+            color: var(--gray-600);
+        }
+
+        /* ========== CONTACT SECTION ========== */
+        .contact-section {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 80px 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 50px;
+            margin-top: 40px;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            padding: 40px;
+            border-radius: var(--radius-xl);
+            color: var(--dark-900);
+        }
+
+        .contact-info h3 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 40px;
+            opacity: 0.9;
+            line-height: 1.7;
+        }
+
+        .contact-details {
+            list-style: none;
+        }
+
+        .contact-details li {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .contact-details i {
+            width: 50px;
+            height: 50px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .contact-form {
+            background: var(--pure-white);
+            padding: 40px;
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 15px 18px;
+            border: 2px solid var(--gray-200);
+            border-radius: var(--radius-md);
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary-green);
+            box-shadow: 0 0 0 4px rgba(164,229,25,0.1);
+        }
+
+        textarea.form-control {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+            border: none;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--dark-900);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* ========== FOOTER ========== */
+        .footer {
+            background: var(--dark-900);
+            color: var(--gray-400);
+            padding: 60px 0 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer-logo {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--pure-white);
+            margin-bottom: 20px;
+        }
+
+        .footer-logo span {
+            color: var(--primary-green);
+        }
+
+        .footer-about p {
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-link {
+            width: 45px;
+            height: 45px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--pure-white);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .social-link:hover {
+            background: var(--primary-green);
+            color: var(--dark-900);
+            transform: translateY(-3px);
+        }
+
+        .footer h4 {
+            color: var(--pure-white);
+            font-size: 20px;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 15px;
+        }
+
+        .footer-links a {
+            color: var(--gray-400);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-green);
+            padding-right: 5px;
+        }
+
+        .footer-contact li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+
+        .footer-contact i {
+            width: 35px;
+            color: var(--primary-green);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 1024px) {
+            .feature-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .feature-row.reverse {
+                direction: rtl;
+            }
+            
+            .platforms-grid,
+            .types-grid,
+            .why-us-grid,
+            .features-list-grid,
+            .stats-grid,
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .partners-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .platforms-grid,
+            .types-grid,
+            .why-us-grid,
+            .features-list-grid,
+            .stats-grid,
+            .partners-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb-list">
+                <li class="breadcrumb-item"><a href="https://tamhed-co.com">الرئيسية</a></li>
+                <li class="breadcrumb-separator"><i class="fas fa-chevron-left"></i></li>
+                <li class="breadcrumb-item"><a href="https://tamhed-co.com/services">خدماتنا</a></li>
+                <li class="breadcrumb-separator"><i class="fas fa-chevron-left"></i></li>
+                <li class="breadcrumb-item active">إدارة الحملات الإعلانية</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section with Form Under -->
+    <section class="hero">
+        <div class="hero-pattern"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>إدارة <span>الحملات الإعلانية</span> في السعودية والخليج</h1>
+                <p>إنشاء حملة إعلانية متقنة يعتبر أول خطوة للوصول لنجاحك في العالم الرقمي. مع تمهيد، بنوفر لك استراتيجيات إعلانية مدروسة تساعدك على توصيل رسالتك للجمهور الصحيح.</p>
+            </div>
+
+            <!-- Form Under Hero -->
+            <div class="form-under-hero">
+                <form action="https://tamhed-co.com/contact" method="POST">
+                    <div class="form-grid">
+                        <input type="text" class="form-input" placeholder="الاسم كامل" required>
+                        <input type="tel" class="form-input" placeholder="رقم الجوال (واتساب)" required>
+                        <input type="email" class="form-input" placeholder="البريد الإلكتروني">
+                        <select class="form-input" required>
+                            <option value="" disabled selected>الميزانية التقريبية</option>
+                            <option value="500">أقل من 500 د.ك</option>
+                            <option value="1000">500 - 1000 د.ك</option>
+                            <option value="2000">1000 - 2000 د.ك</option>
+                            <option value="5000">أكثر من 2000 د.ك</option>
+                        </select>
+                        <select class="form-input">
+                            <option value="" disabled selected>المنصة المستهدفة</option>
+                            <option value="google">إعلانات جوجل</option>
+                            <option value="facebook">فيسبوك وانستغرام</option>
+                            <option value="snapchat">سناب شات</option>
+                            <option value="tiktok">تيك توك</option>
+                            <option value="all">جميع المنصات</option>
+                        </select>
+                        <button type="submit" class="form-btn">
+                            <i class="fas fa-chart-line" style="margin-left: 8px;"></i>
+                            احصل على استراتيجية إعلانية مجانية
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="section">
+        <div class="container">
+            <div class="feature-row" style="grid-template-columns: 1fr; text-align: center; max-width: 900px; margin: 0 auto;">
+                <div class="feature-content" style="padding: 0;">
+                    <h2 style="font-size: 32px; margin-bottom: 30px;">خدمات <span class="text-gradient">إدارة الحملات الإعلانية</span> مع تمهيد</h2>
+                    <p style="font-size: 18px; color: var(--gray-600); margin-bottom: 30px;">
+                        إعلاناتك على الإنترنت بتصير أداة أساسية للتواصل مع عملائك وتسويق أعمالك. كل حملة بنشتغل عليها في "تمهيد" تركز على تعزيز تواجدك الرقمي بطرق ذكية وعصرية. نوفر لك خدمة إدارة شاملة لحملاتك الإعلانية، من التخطيط والتنفيذ إلى التحليل وتحقيق النتائج المطلوبة.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Importance of Ads (2 alternating sections) -->
+    <section class="section" style="background: linear-gradient(135deg, rgba(164,229,25,0.05), rgba(28,120,241,0.05));">
+        <div class="container">
+            <div class="feature-row">
+                <div class="feature-content">
+                    <span class="feature-badge">التسويق الإلكتروني</span>
+                    <h3>وصول دقيق للجمهور المستهدف</h3>
+                    <p>من خلال إدارة الحملات الإعلانية، بنساعدك على الوصول لجمهورك المستهدف بشكل دقيق وفعال، ونرفع من اهتمامهم بمنتجاتك وخدماتك. نستخدم أحدث تقنيات الاستهداف لتحديد العملاء المحتملين بناءً على الاهتمامات، الموقع، العمر والسلوك.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> استهداف دقيق حسب الموقع (السعودية، الخليج)</li>
+                        <li><i class="fas fa-check-circle"></i> تحديد الجمهور حسب الاهتمامات والسلوك</li>
+                        <li><i class="fas fa-check-circle"></i> إعادة استهداف الزوار السابقين لموقعك</li>
+                    </ul>
+                </div>
+                <div class="feature-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-row reverse" style="margin-top: 60px;">
+                <div class="feature-content">
+                    <span class="feature-badge">الوثوقية والاعتمادية</span>
+                    <h3>حملات احترافية تزيد ثقة العملاء</h3>
+                    <p>مع فريق "تمهيد" المتمكن، بنضمن لك حملة إعلانية احترافية، ترفع من مستوى ثقة العملاء والشركاء في علامتك التجارية. نركز على بناء صورة إيجابية لعلامتك من خلال إعلانات مصممة بعناية تعكس قيمتك الحقيقية.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> إعلانات مصممة باحترافية عالية</li>
+                        <li><i class="fas fa-check-circle"></i> رسائل تسويقية مقنعة ومؤثرة</li>
+                        <li><i class="fas fa-check-circle"></i> بناء سمعة قوية لعلامتك التجارية</li>
+                    </ul>
+                </div>
+                <div class="feature-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platforms Section (4 platforms) -->
+    <section class="platforms-section section">
+        <div class="container">
+            <h2 class="section-title" style="display: block; text-align: center;">نغطي جميع منصات الإعلانات</h2>
+            <p style="text-align: center; color: var(--gray-600); max-width: 700px; margin: 20px auto 40px;">
+                ندير حملاتك الإعلانية على أشهر المنصات العالمية، مع استراتيجيات مخصصة لكل منصة وجمهورها.
+            </p>
+            
+            <div class="platforms-grid">
+                <div class="platform-card">
+                    <div class="platform-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h4>إعلانات جوجل</h4>
+                    <p>إعلانات بحث، شبكة عرض، فيديو على يوتيوب، وتسويق منتجات</p>
+                </div>
+
+                <div class="platform-card">
+                    <div class="platform-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <h4>فيسبوك وانستغرام</h4>
+                    <p>إعلانات في فيسبوك، انستغرام، ماسنجر، مع استهداف دقيق للجمهور</p>
+                </div>
+
+                <div class="platform-card">
+                    <div class="platform-icon">
+                        <i class="fab fa-snapchat"></i>
+                    </div>
+                    <h4>سناب شات</h4>
+                    <p>إعلانات ستوري، فلترز، ولينكات تفاعلية للجمهور الخليجي</p>
+                </div>
+
+                <div class="platform-card">
+                    <div class="platform-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <h4>تيك توك</h4>
+                    <p>إعلانات فيديو قصيرة، تحديات، ومحتوى تفاعلي مع الجيل الجديد</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Types of Campaigns Section (8 items) -->
+    <section class="types-section">
+        <div class="container">
+            <h2 class="section-title" style="display: block; text-align: center;">تصميم حملات إعلانية مخصصة</h2>
+            <p style="text-align: center; color: var(--gray-600); max-width: 700px; margin: 20px auto 40px;">
+                نصمم حملات إعلانية تناسب كل نشاط تجاري، مع مراعاة طبيعة عملك والجمهور المستهدف.
+            </p>
+            
+            <div class="types-grid">
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h4>إعلانات الشركات</h4>
+                    <p>حملات تستهدف الشركات والمؤسسات، تسلط الضوء على هويتها ومنتجاتها وخدماتها</p>
+                </div>
+
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h4>إعلانات المتاجر</h4>
+                    <p>حملات للمتاجر الإلكترونية (ملابس، عطور، إلكترونيات) مع تركيز على المبيعات</p>
+                </div>
+
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h4>إعلانات المطاعم</h4>
+                    <p>عرض الأطباق المميزة والعروض الخاصة، مع تسهيل الطلب الإلكتروني</p>
+                </div>
+
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h4>إعلانات الخدمات الطبية</h4>
+                    <p>حلول إعلانية للعيادات والمستشفيات، تشمل حجز المواعيد والترويج للخدمات</p>
+                </div>
+
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h4>إعلانات الأخبار</h4>
+                    <p>حملات للمواقع الإخبارية والمقالات، تزيد من الانتشار وتفاعل الجمهور</p>
+                </div>
+
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h4>إعلانات الشخصيات العامة</h4>
+                    <p>بناء تواجد قوي للشخصيات العامة والمسؤولين من خلال إعلانات احترافية</p>
+                </div>
+
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <h4>إعلانات المدونات</h4>
+                    <p>حملات للمشاهير وأصحاب المدونات، تزيد من وصول المحتوى والتفاعل</p>
+                </div>
+
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h4>إعلانات ووردبريس</h4>
+                    <p>حملات مخصصة للمواقع متعددة الخدمات والمدنيات على ووردبريس</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features List Section (6 features) -->
+    <section class="features-list-section">
+        <div class="container">
+            <h2 class="section-title" style="display: block; text-align: center;">مميزات إدارة الحملات الإعلانية مع تمهيد</h2>
+            
+            <div class="features-list-grid">
+                <div class="feature-item">
+                    <div class="feature-item-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="feature-item-content">
+                        <h4>استراتيجيات إعلانية عصرية</h4>
+                        <p>إعلاناتنا تتميز بالعصرية وتواكب تطورات السوق لضمان أقصى درجات النجاح.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-item-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="feature-item-content">
+                        <h4>استخدام أحدث أدوات الإعلانات</h4>
+                        <p>نستخدم أشهر وأقوى الأدوات والتقنيات في إدارة الحملات لضمان تحقيق أفضل النتائج.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-item-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="feature-item-content">
+                        <h4>تحسين الأداء الإعلاني</h4>
+                        <p>نتابع الحملات باستمرار ونسوي التحسينات المطلوبة لضمان تحقيق أعلى نسبة من العائد على الاستثمار.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-item-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="feature-item-content">
+                        <h4>توافق مع SEO والإعلانات المدفوعة</h4>
+                        <p>حملاتنا متوافقة مع استراتيجيات SEO والإعلانات المدفوعة لزيادة الوصول لعملائك المحتملين.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-item-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="feature-item-content">
+                        <h4>تحليل الأداء والتقارير المستمرة</h4>
+                        <p>نقدم تقارير مفصلة عن أداء الحملة مع اقتراحات للتحسين المستمر.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-item-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="feature-item-content">
+                        <h4>توافق مع جميع الشاشات</h4>
+                        <p>حملاتنا الإعلانية متوافقة مع جميع الشاشات سواء كانت على الكمبيوتر أو الموبايل لضمان وصول أفضل.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">لماذا تختار تمهيد لإدارة حملاتك؟</h2>
+            
+            <div class="why-us-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>استهداف دقيق للجمهور</h3>
+                    <p>نوصل إعلاناتك للجمهور المناسب في الوقت المناسب، بناءً على تحليل دقيق للبيانات والسلوك.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>أعلى عائد على الاستثمار</h3>
+                    <p>نركز على تحقيق أفضل النتائج بأقل تكلفة، مع متابعة مستمرة لتحسين أداء الحملات.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>تقارير شفافة ودقيقة</h3>
+                    <p>نشاركك كل التفاصيل مع تقارير أداء واضحة توفر لك رؤية كاملة عن عائد استثمارك.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div>
+                    <div class="stat-number">+500</div>
+                    <div class="stat-label">حملة إعلانية ناجحة</div>
+                </div>
+                <div>
+                    <div class="stat-number">+150</div>
+                    <div class="stat-label">عميل في الخليج</div>
+                </div>
+                <div>
+                    <div class="stat-number">+300%</div>
+                    <div class="stat-label">متوسط العائد على الاستثمار</div>
+                </div>
+                <div>
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">متابعة وتحسين مستمر</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <h2 class="section-title text-center" style="display: block; text-align: center;">شركاؤنا</h2>
+            <p style="text-align: center; color: var(--gray-600); max-width: 600px; margin: 20px auto 0;">
+                نحن فخورين بكوننا جزء من نجاح تمهيد، دعنا نكون شركاء في تحقيق أهدافك واستفد من خبرتنا المتميزة!
+            </p>
+
+            <div class="partners-grid">
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <span>متاجر الشرق</span>
+                </div>
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <span>فنادق موديل</span>
+                </div>
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <span>مطاعم الذواق</span>
+                </div>
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <span>أكاديمية الخليج</span>
+                </div>
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <span>مختبرات دلتا</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا الآن</h2>
+            
+            <div class="contact-grid">
+                <!-- Contact Info Card -->
+                <div class="contact-info">
+                    <h3>لنكون شركاء نجاحك!</h3>
+                    <p>سواء كنت تبحث عن استفسار، استشارة، أو ترغب بالاستفادة من خدماتنا المميزة، نحن هنا لدعمك! املأ النموذج وسيتواصل معك فريقنا في أسرع وقت ممكن.</p>
+                    
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+965 31648078 (واتساب)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@tamhed-co.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>السعودية</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="https://tamhed-co.com/contact" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="الاسم كامل" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="رقم الجوال (واتساب)" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="البريد الإلكتروني">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" required>
+                                <option value="" disabled selected>اختر الخدمة التي تناسب احتياجاتك</option>
+                                <option value="google">إعلانات جوجل</option>
+                                <option value="facebook">فيسبوك وانستغرام</option>
+                                <option value="snapchat">سناب شات</option>
+                                <option value="tiktok">تيك توك</option>
+                                <option value="all">حملة متكاملة</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="رسالتك..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane" style="margin-left: 10px;"></i>
+                            إرسال
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">تمهيد<span>.</span></div>
+                    <p>نمهد لك طريق النجاح في العالم الرقمي بخطوات ثابتة ونتائج استثنائية. نقدم حلول تسويق إلكتروني متكاملة في السعودية والخليج.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-snapchat"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>خدماتنا</h4>
+                    <ul>
+                        <li><a href="#">إدارة الحملات الإعلانية</a></li>
+                        <li><a href="#">إدارة وسائل التواصل</a></li>
+                        <li><a href="#">تحسين محركات البحث SEO</a></li>
+                        <li><a href="#">إنشاء وتصميم المواقع</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>روابط مهمة</h4>
+                    <ul>
+                        <li><a href="https://tamhed-co.com">الرئيسية</a></li>
+                        <li><a href="https://tamhed-co.com/about">عن تمهيد</a></li>
+                        <li><a href="https://tamhed-co.com/blog">المدونة</a></li>
+                        <li><a href="https://tamhed-co.com/contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>تواصل معنا</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i> +965 31648078</li>
+                        <li><i class="fas fa-envelope"></i> info@tamhed-co.com</li>
+                        <li><i class="fas fa-map-marker"></i> السعودية - الرياض</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 تمهيد - جميع الحقوق محفوظة. تصميم وتطوير بواسطة تمهيد.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
